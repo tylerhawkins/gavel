@@ -1,0 +1,9 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">solutions</custom-type>
+		<custom-type translate="1">houses</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">houses_category</taxonomy>
+	</taxonomies>
+</wpml-config>
