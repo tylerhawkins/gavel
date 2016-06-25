@@ -541,7 +541,6 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 	}
 }
 .content-holder { background:#bfd0c7; }
-.home .content-holder { padding-bottom: 0; }
 .title-wrap {
 	background:#fff;
 	position:relative;
@@ -1302,7 +1301,7 @@ div.type-page .extra-wrap p { color:#cecece; }
 	background:#8ebba2;
 	z-index:1;
 }
-.home .well { margin-bottom: 0; }
+.home .well { margin-bottom:45px; }
 .posts-grid li .thumbnail {
 	float:none;
 	display:inline-block;
