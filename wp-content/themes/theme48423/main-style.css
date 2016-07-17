@@ -200,6 +200,7 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 	box-sizing:border-box;
 	transition:all 0.3s ease 0s;
 	background:none;
+	font-weight: normal;
 }
 @media (min-width: 768px) and (max-width: 979px) {
 	.nav__primary .sf-menu >li >a { font-size:15px; }
