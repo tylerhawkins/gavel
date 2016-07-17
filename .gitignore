@@ -2,4 +2,6 @@
 
 /wp-config.php
 
-.less.cache
+/wp-content/themes/theme48423/bootstrap/less/bootstrap.less.cache
+
+/wp-content/themes/theme48423/style.less.cache
