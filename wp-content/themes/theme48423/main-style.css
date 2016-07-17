@@ -277,7 +277,7 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 	border-radius:0;
 	padding:0;
 	letter-spacing:0;
-	font:bold 17px/25px 'Cabin', sans-serif;
+	font: 17px/25px 'Cabin', sans-serif;
 	transition:all 0.3s ease 0s;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -581,8 +581,9 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 }
 .title-section {
 	margin:0;
-	padding:35px 0 32px;
+	padding: 15px 0;
 	text-align:left;
+	font: 0/0 a;
 }
 @media (max-width: 767px) {
 	.title-section { text-align:center; }
@@ -592,11 +593,12 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 	margin:0;
 	color:#a3c8b4;
 	text-transform:none;
-	font:bold 62px/1.3em 'Cabin', sans-serif;
-	float:left;
+	font:bold 45px/1.3em 'Cabin', sans-serif;
 	width:50%;
 	-moz-hyphens:none;
 	word-wrap:normal;
+	display: inline-block;
+	vertical-align: middle;
 }
 @media (max-width: 767px) {
 	.title-section .title-header {
@@ -612,10 +614,9 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 	line-height:1.4em;
 }
 .title-section .breadcrumb {
-	float:right;
 	width:50%;
 	background:none;
-	padding:34px 0 0 0;
+	padding: 0;
 	margin:0;
 	text-transform:none;
 	text-shadow:none;
@@ -625,6 +626,8 @@ select::-moz-placeholder, textarea::-moz-placeholder, input[type="text"]::-moz-p
 	text-align:right;
 	border-radius:0;
 	font:bold 22px/1.3em 'Cabin', sans-serif;
+	display: inline-block;
+	vertical-align: middle;
 }
 @media (max-width: 767px) {
 	.title-section .breadcrumb {
@@ -928,12 +931,12 @@ div.pagination ul {
 }
 div.pagination ul li { border-radius:0; }
 div.pagination ul li a {
-	margin:0 0 0 20px;
+	margin:0 0 0 10px;
 	border:none;
 	background:none;
 	border-radius:0;
-	padding:0;
-	font:bold 22px/1.2em 'Cabin', sans-serif;
+	padding:4px 12px;
+	font:bold 17px/26px 'Cabin', sans-serif;
 	color:#8ebba2;
 }
 div.pagination ul li a:focus { background:none; }
@@ -1302,7 +1305,8 @@ div.type-page .extra-wrap p { color:#cecece; }
 	background:#8ebba2;
 	z-index:1;
 }
-.home .well { margin-bottom:45px; }
+.home .well { margin-bottom: 0; }
+.home .content-holder { padding-bottom: 0; }
 .posts-grid li .thumbnail {
 	float:none;
 	display:inline-block;
