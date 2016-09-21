@@ -575,6 +575,8 @@ header.header {
 }
 .content-holder { background: #fff; color: #333433; }
 .content-holder h1, h2, h3, h4, h5 { color: #333433; }
+.content-holder a { color: #5F0009; }
+.content-holder a:hover { color: #333433; }
 
 .title-wrap {
 	background:#fff;
@@ -995,10 +997,11 @@ ul.pager li a:hover, ul.pager li a:active {
 	color:#fff;
 }
 ul.pager li a:focus { background:none; }
-.portfolio-meta { border-color:#cadfd3; }
+.portfolio-meta { border-color:#cadfd3; display: none; }
 .portfolio-meta i { color:#fff; }
 .portfolio-meta-list { border-color:#cadfd3; }
-.related-posts, .comment-holder, #respond { margin-top:70px; }
+.portfolio_category-tenants .nocomments { display: none; }
+.related-posts, .comment-holder, #respond { margin-top:70px; display: none; }
 .related-posts h3, .comment-holder h3, #respond h3 {
 	font:bold 62px/1.2em 'Cabin', sans-serif;
 	margin:0 0 35px;

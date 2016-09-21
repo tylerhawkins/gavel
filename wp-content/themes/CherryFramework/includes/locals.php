@@ -1015,7 +1015,7 @@
 			'error_404' => __('Error 404 Not Found', $domain),
 
 			//loop-single-portfolio.php
-			'launch_project' => __('Launch Project', $domain),
+			'launch_project' => __('Visit Website', $domain),
 
 			//static-not-found.php
 			'sorry' => __('Sorry!', $domain),
