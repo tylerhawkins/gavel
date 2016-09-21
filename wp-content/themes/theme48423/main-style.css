@@ -747,11 +747,10 @@ article .post_content {
 	box-sizing:border-box;
 }
 article .post_meta {
-	display: none;
 	padding:8px 0;
 	border:none;
 	position:relative;
-	display:block;
+	display: none;
 	margin:20px 0 20px;
 	overflow:visible;
 	background:none;
