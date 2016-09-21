@@ -576,6 +576,7 @@ header.header {
 .content-holder { background: #fff; color: #333433; }
 .content-holder h1, h2, h3, h4, h5 { color: #333433; }
 .content-holder a { color: #5F0009; }
+.content-holder a.btn { color: #fff; }
 .content-holder a:hover { color: #333433; }
 
 .title-wrap {
