@@ -747,6 +747,7 @@ article .post_content {
 	box-sizing:border-box;
 }
 article .post_meta {
+	display: none;
 	padding:8px 0;
 	border:none;
 	position:relative;
