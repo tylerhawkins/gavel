@@ -51,6 +51,37 @@ figure.frame.alignleft { margin:2px 30px 10px 0; }
 		float:none;
 	}
 }
+#portfolio-grid {
+	text-align: center;
+	font: 0/0 a;
+}
+#portfolio-grid .portfolio_item {
+	float: none;
+	display: inline-block;
+	width: 25%;
+	font: 17px/26px 'PT Sans', sans-serif;
+	margin-bottom: 40px;
+	padding: 0 10px;
+	vertical-align: top;
+}
+#portfolio-grid .portfolio_item .image-wrap {
+	display: inline-block;
+}
+@media (max-width: 959px) {
+	#portfolio-grid .portfolio_item {
+		width: 50%;
+	}
+}
+@media (max-width: 480px) {
+	#portfolio-grid .portfolio_item {
+		display: block;
+		width: 100%;
+	}
+}
+.portfolio_item .thumbnail__portfolio img {
+	width: auto;
+	height: 220px;
+}
 .btn, .reply a {
 	border-radius:5px;
 	border:none;
@@ -914,7 +945,7 @@ article.testimonial .user, article.testimonial .info { color:#222; }
 	letter-spacing:0;
 }
 .filterable-portfolio li .caption h3 a {
-	color:#fff;
+	color:#333433;
 	text-transform:none;
 	text-decoration:none;
 }

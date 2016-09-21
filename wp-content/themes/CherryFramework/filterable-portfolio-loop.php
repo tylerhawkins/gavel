@@ -4,7 +4,7 @@
 	$layout_mode = of_get_option('layout_mode');
 ?>
 
-<script>
+<?php /*<script>
 	jQuery(document).ready(function($) {
 		var $container = $('#portfolio-grid'),
 			items_count = $(".portfolio_item").size();
@@ -130,7 +130,7 @@
 			})
 		}
 	});
-</script>
+</script>*/ ?>
 
 <?php
 	$i = 1;
