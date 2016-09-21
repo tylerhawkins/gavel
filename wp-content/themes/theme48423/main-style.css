@@ -812,6 +812,7 @@ article.testimonial .user, article.testimonial .info { color:#222; }
 }
 .single #content .share-buttons .pinterest img { vertical-align:top; }
 .single #content .post-author {
+	display: none;
 	padding:30px 40px;
 	border:none;
 	background:#ffffff;
