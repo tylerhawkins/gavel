@@ -1,0 +1,1168 @@
+0000.000 (0) Opened log file at time: Mon, 28 Nov 2016 23:43:22 +0000 on http://gaveldenver.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.117 (0) Free space on disk containing Updraft's temporary directory: 583282.4 MB
+0000.120 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.142 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.144 (0) Set semaphore last lock (fd) time to 2016-11-28 23:43:22
+0000.145 (0) Semaphore lock (fd) complete
+0000.155 (0) Backup run: resumption=0, nonce=aa4fad83df04, begun at=1480376602 (0s ago), job type=backup
+0000.157 (0) Scheduling a resumption (1) after 300 seconds (1480376902) in case this run gets aborted
+0000.183 (0) Checking if we have a zip executable available
+0000.184 (0) Testing: /usr/bin/zip
+0000.192 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.194 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.195 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.195 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.197 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.206 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.207 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.210 (0) Working binary zip found: /usr/bin/zip
+0000.213 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.214 (0) Creation of backups of directories: beginning
+0000.217 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.481 (0) Total entities for the zip file: 241 directories, 1620 files (0 skipped as non-modified), 24.3 MB
+0000.486 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.490 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.493 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.497 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.502 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.503 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 1620 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.143 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: size is now: 1.10 MB
+0001.152 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 600 files added (on-disk size: 1098 KB)
+0001.160 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 700 files added (on-disk size: 1098 KB)
+0001.167 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 800 files added (on-disk size: 1098 KB)
+0001.174 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 900 files added (on-disk size: 1098 KB)
+0001.185 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1000 files added (on-disk size: 1098 KB)
+0001.187 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 1620 files batched, 501 (1002) added so far); re-opening (prior size: 1098 KB)
+0001.844 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: size is now: 2.00 MB
+0001.850 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1100 files added (on-disk size: 2027.6 KB)
+0001.854 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1200 files added (on-disk size: 2027.6 KB)
+0001.858 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1300 files added (on-disk size: 2027.6 KB)
+0001.862 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1400 files added (on-disk size: 2027.6 KB)
+0001.866 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1500 files added (on-disk size: 2027.6 KB)
+0001.866 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.1 MB, 1620 files batched, 501 (1503) added so far); re-opening (prior size: 2027.6 KB)
+0004.303 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: size is now: 7.00 MB
+0004.314 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip.tmp: 1600 files added (on-disk size: 7192.7 KB)
+0005.259 (0) Created plugins zip (0) - 8521.9 KB in 4.9 s (1726.8 KB/s) (SHA1 checksum: 3c2e1a327541b90459963ad6188f6a2cfb1eaa1d)
+0005.262 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.478 (0) Total entities for the zip file: 78 directories, 675 files (0 skipped as non-modified), 10.5 MB
+0005.483 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.487 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.491 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.495 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.499 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 675 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0006.352 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: size is now: 4.60 MB
+0006.364 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: 600 files added (on-disk size: 4759.8 KB)
+0006.760 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip.tmp: size is now: 6.50 MB
+0006.803 (0) Created themes zip (0) - 6691.1 KB in 1.4 s (4781.9 KB/s) (SHA1 checksum: 80bd5833d14c1bd17a2b725b8bc0bd3bfe2dce17)
+0006.806 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.807 (0) Looking for candidates to back up in: /home7/gavelden/public_html/wp-content/uploads
+0006.809 (0) finding files: 2012: adding to list (1)
+0006.810 (0) finding files: 2013: adding to list (2)
+0006.812 (0) finding files: 2016: adding to list (3)
+0006.814 (0) finding files: 2011: adding to list (4)
+0006.815 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.996 (0) Total entities for the zip file: 11 directories, 504 files (0 skipped as non-modified), 75.1 MB
+0007.004 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.006 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 504 files batched, 112 (112) added so far); re-opening (prior size: 0 KB)
+0008.331 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: size is now: 25.10 MB
+0008.334 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13747.6 KB/s)
+0008.335 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.86883497238, normalised_time=1.86214452431, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=84465194)
+0008.340 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: 200 files added (on-disk size: 25704.9 KB)
+0008.344 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: 300 files added (on-disk size: 25704.9 KB)
+0008.348 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: 400 files added (on-disk size: 25704.9 KB)
+0008.352 (0) Zip: backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: 500 files added (on-disk size: 25704.9 KB)
+0012.051 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip.tmp: size is now: 74.60 MB
+0012.426 (0) Created uploads zip (0) - 76381.3 KB in 5.5 s (14004.1 KB/s) (SHA1 checksum: 0129674f39523c613d60c0b2737f651f3debe4b7)
+0012.429 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.430 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.431 (0) Looking for candidates to back up in: /home7/gavelden/public_html/wp-content
+0012.431 (0) finding files: sedlex: adding to list (1)
+0012.432 (0) finding files: themes: skipping: this is the themes directory
+0012.433 (0) finding files: updraft: skipping: this is the updraft directory
+0012.434 (0) finding files: index.php: adding to list (2)
+0012.435 (0) finding files: upgrade: skipping: excluded by options
+0012.435 (0) finding files: plugins: skipping: this is the plugins directory
+0012.436 (0) finding files: uploads: skipping: this is the uploads directory
+0012.545 (0) Total entities for the zip file: 6 directories, 15 files (0 skipped as non-modified), 0.5 MB
+0012.647 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip.tmp: size is now: 0.10 MB
+0012.651 (0) Created others zip (0) - 141.9 KB in 0.1 s (1291.8 KB/s) (SHA1 checksum: 01e433119aa19dbc172f9d3bc7b9d73b7c75b6b0)
+0012.657 (0) Saving backup status to database (elements: 8)
+0012.662 (0) Beginning creation of database dump (WordPress DB)
+0012.665 (0) Testing: /usr/bin/mysqldump
+0012.718 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1191 bytes total)
+0012.720 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0012.727 (0) Table wp_options: Total expected rows (approximate): 284
+0012.767 (0) Table wp_options: Total rows added: 286 in 0.04 seconds
+0012.770 (0) Table wp_options: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_options.table.gz - 124.5 KB)
+0012.781 (0) Table wp_users: Total expected rows (approximate): 2
+0012.785 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0012.786 (0) Table wp_users: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_users.table.gz - 0.7 KB)
+0012.796 (0) Table wp_usermeta: Total expected rows (approximate): 35
+0012.799 (0) Table wp_usermeta: Total rows added: 35 in 0.00 seconds
+0012.801 (0) Table wp_usermeta: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_usermeta.table.gz - 1.3 KB)
+0012.812 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0012.814 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0012.816 (0) Table wp_commentmeta: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0012.820 (0) Table wp_comments: Total expected rows (approximate): 0
+0012.822 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0012.824 (0) Table wp_comments: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_comments.table.gz - 0.5 KB)
+0012.830 (0) Table wp_links: Total expected rows (approximate): 0
+0012.833 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0012.835 (0) Table wp_links: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_links.table.gz - 0.4 KB)
+0012.843 (0) Table wp_postmeta: Total expected rows (approximate): 579
+0012.877 (0) Table wp_postmeta: Total rows added: 579 in 0.03 seconds
+0012.881 (0) Table wp_postmeta: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_postmeta.table.gz - 17.8 KB)
+0012.885 (0) Table wp_posts: Total expected rows (approximate): 206
+0012.931 (0) Table wp_posts: Total rows added: 204 in 0.04 seconds
+0012.933 (0) Table wp_posts: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_posts.table.gz - 25.1 KB)
+0012.936 (0) Table wp_term_relationships: Total expected rows (approximate): 25
+0012.940 (0) Table wp_term_relationships: Total rows added: 25 in 0.00 seconds
+0012.943 (0) Table wp_term_relationships: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0012.947 (0) Table wp_term_taxonomy: Total expected rows (approximate): 20
+0012.951 (0) Table wp_term_taxonomy: Total rows added: 20 in 0.00 seconds
+0012.953 (0) Table wp_term_taxonomy: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0012.960 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0012.963 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0012.966 (0) Table wp_termmeta: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_termmeta.table.gz - 0.4 KB)
+0012.971 (0) Table wp_terms: Total expected rows (approximate): 20
+0012.975 (0) Table wp_terms: Total rows added: 20 in 0.00 seconds
+0012.978 (0) Table wp_terms: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_terms.table.gz - 0.6 KB)
+0012.983 (0) Table wp_pluginSL_traffic_manager: Total expected rows (approximate): 1195
+0013.099 (0) Table wp_pluginSL_traffic_manager: Total rows added: 1195 in 0.11 seconds
+0013.101 (0) Table wp_pluginSL_traffic_manager: finishing file (backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_pluginSL_traffic_manager.table.gz - 11.2 KB)
+0013.106 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_options.table.gz (1/13): adding to final database dump
+0013.145 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_users.table.gz (2/13): adding to final database dump
+0013.147 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_usermeta.table.gz (3/13): adding to final database dump
+0013.148 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_commentmeta.table.gz (4/13): adding to final database dump
+0013.149 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_comments.table.gz (5/13): adding to final database dump
+0013.150 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_links.table.gz (6/13): adding to final database dump
+0013.151 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_postmeta.table.gz (7/13): adding to final database dump
+0013.161 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_posts.table.gz (8/13): adding to final database dump
+0013.170 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_term_relationships.table.gz (9/13): adding to final database dump
+0013.172 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_term_taxonomy.table.gz (10/13): adding to final database dump
+0013.174 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_termmeta.table.gz (11/13): adding to final database dump
+0013.176 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_terms.table.gz (12/13): adding to final database dump
+0013.178 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db-table-wp_pluginSL_traffic_manager.table.gz (13/13): adding to final database dump
+0013.196 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: finished writing out complete database file (160 KB)
+0013.203 (0) Total database tables backed up: 13 (backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz, size: 186702, checksum (SHA1): eb0139597fe4e7b41611b840fbe2a235ad13a72d)
+0013.217 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0013.219 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0013.220 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0013.220 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has not yet been successfully uploaded: will queue
+0013.221 (0) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has not yet been successfully uploaded: will queue
+0013.222 (0) Saving backup history. Total backup size: 89.8 MB
+0013.228 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0013.231 (0) Cloud backup selection (1/1): dreamobjects (last)
+0013.233 (0) Beginning dispatch of backup to remote (dreamobjects)
+0013.239 (0) Set endpoint: objects-us-west-1.dream.io
+0013.449 (0) Set endpoint: objects-us-west-1.dream.io
+0013.450 (0) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+0013.917 (0) DreamObjects chunked upload: got multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+0014.162 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0014.262 (0) DreamObjects chunk 1: upload failed
+0014.264 (0) An error condition has occurred for the first time during this job
+0014.406 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0014.408 (0) DreamObjects chunk 2: upload failed
+0014.409 (0) DreamObjects upload: upload was not completely successful on this run
+0014.410 (0) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+0014.954 (0) DreamObjects chunked upload: got multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+0015.168 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0015.172 (0) DreamObjects chunk 1: upload failed
+0015.356 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0015.357 (0) DreamObjects chunk 2: upload failed
+0015.358 (0) DreamObjects upload: upload was not completely successful on this run
+0015.359 (0) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+0015.883 (0) DreamObjects chunked upload: got multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+0016.079 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0016.083 (0) DreamObjects chunk 1: upload failed
+0016.295 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0016.299 (0) DreamObjects chunk 2: upload failed
+0016.520 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0016.523 (0) DreamObjects chunk 3: upload failed
+0016.673 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0016.677 (0) DreamObjects chunk 4: upload failed
+0016.902 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0016.907 (0) DreamObjects chunk 5: upload failed
+0017.106 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0017.111 (0) DreamObjects chunk 6: upload failed
+0017.258 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0017.263 (0) DreamObjects chunk 7: upload failed
+0017.401 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0017.404 (0) DreamObjects chunk 8: upload failed
+0017.610 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0017.614 (0) DreamObjects chunk 9: upload failed
+0017.763 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0017.766 (0) DreamObjects chunk 10: upload failed
+0017.998 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0018.003 (0) DreamObjects chunk 11: upload failed
+0018.156 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0018.160 (0) DreamObjects chunk 12: upload failed
+0018.363 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0018.366 (0) DreamObjects chunk 13: upload failed
+0018.514 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0018.519 (0) DreamObjects chunk 14: upload failed
+0018.807 (0) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0018.812 (0) DreamObjects chunk 15: upload failed
+0018.814 (0) DreamObjects upload: upload was not completely successful on this run
+0018.815 (0) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip (chunks: 1) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip
+0019.409 (0) DreamObjects regular upload: success
+0019.420 (0) Recording as successfully uploaded: backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip (8e89a3478ec34f44496bf565ac35bc85)
+0019.426 (0) Deleting local file: backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: OK
+0019.428 (0) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz (chunks: 1) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz
+0019.940 (0) DreamObjects regular upload: success
+0019.945 (0) Recording as successfully uploaded: backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz (71b753f67568aa8c2a96e3a6bcbcdc82)
+0019.949 (0) Deleting local file: backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: OK
+0019.952 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+0019.957 (0) Number of backup sets in history: 1; groups (db): 1
+0019.959 (0) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0019.964 (0) This backup set is the backup set just made, so will not be deleted.
+0019.967 (0) Number of backup sets in history: 1; groups (files): 1
+0019.968 (0) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0019.969 (0) This backup set is the backup set just made, so will not be deleted.
+0019.971 (0) This backup set is the backup set just made, so will not be deleted.
+0019.972 (0) This backup set is the backup set just made, so will not be deleted.
+0019.972 (0) This backup set is the backup set just made, so will not be deleted.
+0019.975 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0019.977 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0019.986 (0) Resume backup (aa4fad83df04, 0): finish run
+0019.991 (0) Decremented the semaphore (fd) by 1
+0019.996 (0) Semaphore (fd) unlocked
+0019.998 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0020.002 (0) Rescheduling resumption 1: moving to 120 seconds from now (1480376742)
+0020.005 (0) No email will/can be sent - the user has not configured an email address.
+0020.006 (0) The backup has not finished; a resumption is scheduled
+0220.879 (1) Opened log file at time: Mon, 28 Nov 2016 23:47:03 +0000 on http://gaveldenver.com
+0220.881 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0221.019 (1) Free space on disk containing Updraft's temporary directory: 583192.7 MB
+0221.022 (1) Backup run: resumption=1, nonce=aa4fad83df04, begun at=1480376602 (221s ago), job type=backup, previous check-in=13.1s
+0221.024 (1) Scheduling a resumption (2) after 300 seconds (1480377123) in case this run gets aborted
+0221.035 (1) Checking if we have a zip executable available
+0221.036 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0221.037 (1) Creation of backups of directories: already finished
+0221.038 (1) Saving backup status to database (elements: 8)
+0221.042 (1) Database dump (WordPress DB): Creation was completed already
+0221.048 (1) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0221.050 (1) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0221.051 (1) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0221.052 (1) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+0221.053 (1) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+0221.053 (1) Saving backup history. Total backup size: Unknown
+0221.057 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+0221.059 (1) Cloud backup selection (1/1): dreamobjects (last)
+0221.063 (1) Beginning dispatch of backup to remote (dreamobjects)
+0221.069 (1) Set endpoint: objects-us-west-1.dream.io
+0221.459 (1) Set endpoint: objects-us-west-1.dream.io
+0221.459 (1) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+0221.463 (1) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+0221.626 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0221.647 (1) DreamObjects chunk 1: upload failed
+0221.649 (1) An error condition has occurred for the first time during this job
+0221.861 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0221.863 (1) DreamObjects chunk 2: upload failed
+0221.866 (1) DreamObjects upload: upload was not completely successful on this run
+0221.868 (1) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+0221.869 (1) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+0222.069 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0222.075 (1) DreamObjects chunk 1: upload failed
+0222.207 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0222.208 (1) DreamObjects chunk 2: upload failed
+0222.209 (1) DreamObjects upload: upload was not completely successful on this run
+0222.210 (1) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+0222.211 (1) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+0222.348 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0222.352 (1) DreamObjects chunk 1: upload failed
+0222.556 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0222.560 (1) DreamObjects chunk 2: upload failed
+0222.788 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0222.793 (1) DreamObjects chunk 3: upload failed
+0223.029 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0223.035 (1) DreamObjects chunk 4: upload failed
+0223.198 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0223.202 (1) DreamObjects chunk 5: upload failed
+0223.570 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0223.575 (1) DreamObjects chunk 6: upload failed
+0223.757 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0223.761 (1) DreamObjects chunk 7: upload failed
+0223.967 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0223.972 (1) DreamObjects chunk 8: upload failed
+0224.167 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0224.170 (1) DreamObjects chunk 9: upload failed
+0224.363 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0224.366 (1) DreamObjects chunk 10: upload failed
+0224.579 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0224.584 (1) DreamObjects chunk 11: upload failed
+0224.791 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0224.795 (1) DreamObjects chunk 12: upload failed
+0224.999 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0225.004 (1) DreamObjects chunk 13: upload failed
+0225.205 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0225.209 (1) DreamObjects chunk 14: upload failed
+0225.346 (1) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0225.350 (1) DreamObjects chunk 15: upload failed
+0225.352 (1) DreamObjects upload: upload was not completely successful on this run
+0225.356 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+0225.359 (1) Number of backup sets in history: 1; groups (db): 1
+0225.360 (1) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0225.361 (1) This backup set is the backup set just made, so will not be deleted.
+0225.362 (1) Number of backup sets in history: 1; groups (files): 1
+0225.363 (1) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0225.364 (1) This backup set is the backup set just made, so will not be deleted.
+0225.365 (1) This backup set is the backup set just made, so will not be deleted.
+0225.366 (1) This backup set is the backup set just made, so will not be deleted.
+0225.366 (1) This backup set is the backup set just made, so will not be deleted.
+0225.367 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0225.368 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0225.373 (1) Resume backup (aa4fad83df04, 1): finish run
+0225.375 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0225.378 (1) No email will/can be sent - the user has not configured an email address.
+0225.379 (1) The backup has not finished; a resumption is scheduled
+0524.731 (2) Opened log file at time: Mon, 28 Nov 2016 23:52:07 +0000 on http://gaveldenver.com
+0524.732 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0524.893 (2) Free space on disk containing Updraft's temporary directory: 583192.5 MB
+0524.896 (2) Backup run: resumption=2, nonce=aa4fad83df04, begun at=1480376602 (525s ago), job type=backup
+0524.912 (2) Scheduling a resumption (3) after 300 seconds (1480377427) in case this run gets aborted
+0524.928 (2) Checking if we have a zip executable available
+0524.930 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0524.931 (2) Creation of backups of directories: already finished
+0524.932 (2) Saving backup status to database (elements: 8)
+0524.935 (2) Database dump (WordPress DB): Creation was completed already
+0524.950 (2) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0524.952 (2) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0524.953 (2) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0524.954 (2) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+0524.955 (2) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+0524.956 (2) Saving backup history. Total backup size: Unknown
+0524.960 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+0524.963 (2) Cloud backup selection (1/1): dreamobjects (last)
+0524.969 (2) Beginning dispatch of backup to remote (dreamobjects)
+0524.979 (2) Set endpoint: objects-us-west-1.dream.io
+0525.325 (2) Set endpoint: objects-us-west-1.dream.io
+0525.326 (2) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+0525.329 (2) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+0525.549 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0525.551 (2) DreamObjects chunk 1: upload failed
+0525.553 (2) An error condition has occurred for the first time during this job
+0525.716 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0525.718 (2) DreamObjects chunk 2: upload failed
+0525.719 (2) DreamObjects upload: upload was not completely successful on this run
+0525.728 (2) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+0525.729 (2) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+0525.929 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0525.932 (2) DreamObjects chunk 1: upload failed
+0526.114 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0526.116 (2) DreamObjects chunk 2: upload failed
+0526.117 (2) DreamObjects upload: upload was not completely successful on this run
+0526.118 (2) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+0526.119 (2) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+0526.310 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0526.314 (2) DreamObjects chunk 1: upload failed
+0526.511 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0526.515 (2) DreamObjects chunk 2: upload failed
+0526.650 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0526.655 (2) DreamObjects chunk 3: upload failed
+0526.859 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0526.863 (2) DreamObjects chunk 4: upload failed
+0527.071 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0527.076 (2) DreamObjects chunk 5: upload failed
+0527.277 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0527.281 (2) DreamObjects chunk 6: upload failed
+0527.435 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0527.441 (2) DreamObjects chunk 7: upload failed
+0527.635 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0527.639 (2) DreamObjects chunk 8: upload failed
+0527.842 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0527.846 (2) DreamObjects chunk 9: upload failed
+0528.180 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0528.185 (2) DreamObjects chunk 10: upload failed
+0528.348 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0528.352 (2) DreamObjects chunk 11: upload failed
+0528.499 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0528.504 (2) DreamObjects chunk 12: upload failed
+0528.867 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0528.870 (2) DreamObjects chunk 13: upload failed
+0529.030 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0529.035 (2) DreamObjects chunk 14: upload failed
+0529.213 (2) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0529.216 (2) DreamObjects chunk 15: upload failed
+0529.217 (2) DreamObjects upload: upload was not completely successful on this run
+0529.219 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+0529.221 (2) Number of backup sets in history: 1; groups (db): 1
+0529.223 (2) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0529.224 (2) This backup set is the backup set just made, so will not be deleted.
+0529.225 (2) Number of backup sets in history: 1; groups (files): 1
+0529.226 (2) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0529.227 (2) This backup set is the backup set just made, so will not be deleted.
+0529.228 (2) This backup set is the backup set just made, so will not be deleted.
+0529.228 (2) This backup set is the backup set just made, so will not be deleted.
+0529.228 (2) This backup set is the backup set just made, so will not be deleted.
+0529.229 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0529.229 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0529.233 (2) Resume backup (aa4fad83df04, 2): finish run
+0529.234 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0529.236 (2) No email will/can be sent - the user has not configured an email address.
+0529.237 (2) The backup has not finished; a resumption is scheduled
+0845.719 (3) Opened log file at time: Mon, 28 Nov 2016 23:57:28 +0000 on http://gaveldenver.com
+0845.726 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0846.122 (3) Free space on disk containing Updraft's temporary directory: 583192.4 MB
+0846.138 (3) Backup run: resumption=3, nonce=aa4fad83df04, begun at=1480376602 (846s ago), job type=backup
+0846.169 (3) Scheduling a resumption (4) after 300 seconds (1480377748) in case this run gets aborted
+0846.250 (3) Checking if we have a zip executable available
+0846.270 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0846.278 (3) Creation of backups of directories: already finished
+0846.279 (3) Saving backup status to database (elements: 8)
+0846.284 (3) Database dump (WordPress DB): Creation was completed already
+0846.292 (3) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0846.293 (3) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0846.294 (3) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0846.295 (3) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+0846.296 (3) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+0846.297 (3) Saving backup history. Total backup size: Unknown
+0846.301 (3) Requesting upload of the files that have not yet been successfully uploaded (3)
+0846.304 (3) Cloud backup selection (1/1): dreamobjects (last)
+0846.308 (3) Beginning dispatch of backup to remote (dreamobjects)
+0846.317 (3) Set endpoint: objects-us-west-1.dream.io
+0846.701 (3) Set endpoint: objects-us-west-1.dream.io
+0846.714 (3) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+0846.715 (3) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+0847.022 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0847.029 (3) DreamObjects chunk 1: upload failed
+0847.030 (3) An error condition has occurred for the first time during this job
+0847.290 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0847.292 (3) DreamObjects chunk 2: upload failed
+0847.294 (3) DreamObjects upload: upload was not completely successful on this run
+0847.296 (3) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+0847.308 (3) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+0847.543 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0847.550 (3) DreamObjects chunk 1: upload failed
+0847.710 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0847.715 (3) DreamObjects chunk 2: upload failed
+0847.717 (3) DreamObjects upload: upload was not completely successful on this run
+0847.719 (3) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+0847.721 (3) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+0847.929 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0847.934 (3) DreamObjects chunk 1: upload failed
+0848.209 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0848.214 (3) DreamObjects chunk 2: upload failed
+0848.426 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0848.431 (3) DreamObjects chunk 3: upload failed
+0848.643 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0848.646 (3) DreamObjects chunk 4: upload failed
+0848.785 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0848.790 (3) DreamObjects chunk 5: upload failed
+0848.923 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0848.927 (3) DreamObjects chunk 6: upload failed
+0849.066 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0849.071 (3) DreamObjects chunk 7: upload failed
+0849.430 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0849.433 (3) DreamObjects chunk 8: upload failed
+0849.568 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0849.571 (3) DreamObjects chunk 9: upload failed
+0849.714 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0849.718 (3) DreamObjects chunk 10: upload failed
+0849.914 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0849.917 (3) DreamObjects chunk 11: upload failed
+0850.063 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0850.069 (3) DreamObjects chunk 12: upload failed
+0850.270 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0850.273 (3) DreamObjects chunk 13: upload failed
+0850.479 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0850.483 (3) DreamObjects chunk 14: upload failed
+0850.632 (3) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+0850.635 (3) DreamObjects chunk 15: upload failed
+0850.636 (3) DreamObjects upload: upload was not completely successful on this run
+0850.639 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+0850.640 (3) Number of backup sets in history: 1; groups (db): 1
+0850.641 (3) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0850.642 (3) This backup set is the backup set just made, so will not be deleted.
+0850.643 (3) Number of backup sets in history: 1; groups (files): 1
+0850.643 (3) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+0850.644 (3) This backup set is the backup set just made, so will not be deleted.
+0850.645 (3) This backup set is the backup set just made, so will not be deleted.
+0850.645 (3) This backup set is the backup set just made, so will not be deleted.
+0850.645 (3) This backup set is the backup set just made, so will not be deleted.
+0850.646 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0850.646 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0850.649 (3) Resume backup (aa4fad83df04, 3): finish run
+0850.650 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0850.652 (3) No email will/can be sent - the user has not configured an email address.
+0850.653 (3) The backup has not finished; a resumption is scheduled
+1247.281 (4) Opened log file at time: Tue, 29 Nov 2016 00:04:09 +0000 on http://gaveldenver.com
+1247.283 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1247.430 (4) Free space on disk containing Updraft's temporary directory: 583192.1 MB
+1247.434 (4) Backup run: resumption=4, nonce=aa4fad83df04, begun at=1480376602 (1247s ago), job type=backup
+1247.437 (4) Scheduling a resumption (5) after 300 seconds (1480378149) in case this run gets aborted
+1247.454 (4) Checking if we have a zip executable available
+1247.456 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1247.458 (4) Creation of backups of directories: already finished
+1247.459 (4) Saving backup status to database (elements: 8)
+1247.462 (4) Database dump (WordPress DB): Creation was completed already
+1247.468 (4) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1247.470 (4) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1247.471 (4) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1247.472 (4) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+1247.473 (4) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+1247.474 (4) Saving backup history. Total backup size: Unknown
+1247.478 (4) Requesting upload of the files that have not yet been successfully uploaded (3)
+1247.481 (4) Cloud backup selection (1/1): dreamobjects (last)
+1247.486 (4) Beginning dispatch of backup to remote (dreamobjects)
+1247.495 (4) Set endpoint: objects-us-west-1.dream.io
+1247.835 (4) Set endpoint: objects-us-west-1.dream.io
+1247.836 (4) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+1247.837 (4) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+1247.988 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1247.991 (4) DreamObjects chunk 1: upload failed
+1247.992 (4) An error condition has occurred for the first time during this job
+1248.125 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1248.127 (4) DreamObjects chunk 2: upload failed
+1248.129 (4) DreamObjects upload: upload was not completely successful on this run
+1248.130 (4) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+1248.131 (4) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+1248.274 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1248.281 (4) DreamObjects chunk 1: upload failed
+1248.459 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1248.460 (4) DreamObjects chunk 2: upload failed
+1248.461 (4) DreamObjects upload: upload was not completely successful on this run
+1248.462 (4) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+1248.463 (4) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+1248.607 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1248.611 (4) DreamObjects chunk 1: upload failed
+1248.758 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1248.762 (4) DreamObjects chunk 2: upload failed
+1248.897 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1248.902 (4) DreamObjects chunk 3: upload failed
+1249.055 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1249.059 (4) DreamObjects chunk 4: upload failed
+1249.197 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1249.201 (4) DreamObjects chunk 5: upload failed
+1249.337 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1249.340 (4) DreamObjects chunk 6: upload failed
+1249.480 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1249.485 (4) DreamObjects chunk 7: upload failed
+1249.652 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1249.658 (4) DreamObjects chunk 8: upload failed
+1249.870 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1249.873 (4) DreamObjects chunk 9: upload failed
+1250.069 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1250.072 (4) DreamObjects chunk 10: upload failed
+1250.211 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1250.215 (4) DreamObjects chunk 11: upload failed
+1250.370 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1250.373 (4) DreamObjects chunk 12: upload failed
+1250.577 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1250.581 (4) DreamObjects chunk 13: upload failed
+1250.783 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1250.786 (4) DreamObjects chunk 14: upload failed
+1251.180 (4) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1251.185 (4) DreamObjects chunk 15: upload failed
+1251.187 (4) DreamObjects upload: upload was not completely successful on this run
+1251.190 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+1251.193 (4) Number of backup sets in history: 1; groups (db): 1
+1251.194 (4) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+1251.195 (4) This backup set is the backup set just made, so will not be deleted.
+1251.196 (4) Number of backup sets in history: 1; groups (files): 1
+1251.197 (4) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+1251.198 (4) This backup set is the backup set just made, so will not be deleted.
+1251.199 (4) This backup set is the backup set just made, so will not be deleted.
+1251.200 (4) This backup set is the backup set just made, so will not be deleted.
+1251.200 (4) This backup set is the backup set just made, so will not be deleted.
+1251.200 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1251.201 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1251.205 (4) Resume backup (aa4fad83df04, 4): finish run
+1251.206 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1251.209 (4) No email will/can be sent - the user has not configured an email address.
+1251.210 (4) The backup has not finished; a resumption is scheduled
+1705.808 (5) Opened log file at time: Tue, 29 Nov 2016 00:11:48 +0000 on http://gaveldenver.com
+1705.809 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1705.932 (5) Free space on disk containing Updraft's temporary directory: 583191.7 MB
+1705.936 (5) Backup run: resumption=5, nonce=aa4fad83df04, begun at=1480376602 (1706s ago), job type=backup
+1705.939 (5) Scheduling a resumption (6) after 300 seconds (1480378608) in case this run gets aborted
+1705.965 (5) Checking if we have a zip executable available
+1705.967 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1705.968 (5) Creation of backups of directories: already finished
+1705.969 (5) Saving backup status to database (elements: 8)
+1705.973 (5) Database dump (WordPress DB): Creation was completed already
+1705.979 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1705.980 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1705.981 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1705.982 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+1705.983 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+1705.984 (5) Saving backup history. Total backup size: Unknown
+1705.988 (5) Requesting upload of the files that have not yet been successfully uploaded (3)
+1705.992 (5) Cloud backup selection (1/1): dreamobjects (last)
+1705.999 (5) Beginning dispatch of backup to remote (dreamobjects)
+1706.008 (5) Set endpoint: objects-us-west-1.dream.io
+1706.463 (5) Set endpoint: objects-us-west-1.dream.io
+1706.464 (5) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+1706.468 (5) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+1706.546 (5) Opened log file at time: Tue, 29 Nov 2016 00:11:49 +0000 on http://gaveldenver.com
+1706.548 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1706.706 (5) Free space on disk containing Updraft's temporary directory: 583191.7 MB
+1706.709 (5) Backup run: resumption=5, nonce=aa4fad83df04, begun at=1480376602 (1707s ago), job type=backup
+1706.711 (5) Scheduling a resumption (6) after 300 seconds (1480378609) in case this run gets aborted
+1706.721 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1706.726 (5) Checking if we have a zip executable available
+1706.729 (5) DreamObjects chunk 1: upload failed
+1706.730 (5) An error condition has occurred for the first time during this job
+1706.732 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1706.734 (5) Creation of backups of directories: already finished
+1706.735 (5) Saving backup status to database (elements: 8)
+1706.738 (5) Database dump (WordPress DB): Creation was completed already
+1706.742 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1706.742 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1706.743 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1706.744 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+1706.745 (5) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+1706.746 (5) Saving backup history. Total backup size: Unknown
+1706.749 (5) Requesting upload of the files that have not yet been successfully uploaded (3)
+1706.750 (5) Cloud backup selection (1/1): dreamobjects (last)
+1706.755 (5) Beginning dispatch of backup to remote (dreamobjects)
+1706.764 (5) Set endpoint: objects-us-west-1.dream.io
+1706.915 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1706.917 (5) DreamObjects chunk 2: upload failed
+1706.918 (5) DreamObjects upload: upload was not completely successful on this run
+1706.919 (5) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+1706.922 (5) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+1706.953 (5) Set endpoint: objects-us-west-1.dream.io
+1706.953 (5) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+1706.954 (5) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+1707.097 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.099 (5) DreamObjects chunk 1: upload failed
+1707.100 (5) An error condition has occurred for the first time during this job
+1707.109 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.113 (5) DreamObjects chunk 1: upload failed
+1707.227 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.229 (5) DreamObjects chunk 2: upload failed
+1707.230 (5) DreamObjects upload: upload was not completely successful on this run
+1707.230 (5) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+1707.231 (5) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+1707.232 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.234 (5) DreamObjects chunk 2: upload failed
+1707.235 (5) DreamObjects upload: upload was not completely successful on this run
+1707.236 (5) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+1707.237 (5) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+1707.422 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.427 (5) DreamObjects chunk 1: upload failed
+1707.462 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.466 (5) DreamObjects chunk 1: upload failed
+1707.552 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.554 (5) DreamObjects chunk 2: upload failed
+1707.555 (5) DreamObjects upload: upload was not completely successful on this run
+1707.556 (5) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+1707.557 (5) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+1707.799 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.802 (5) DreamObjects chunk 2: upload failed
+1707.803 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.806 (5) DreamObjects chunk 1: upload failed
+1707.948 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.952 (5) DreamObjects chunk 2: upload failed
+1707.969 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1707.972 (5) DreamObjects chunk 3: upload failed
+1708.115 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.119 (5) DreamObjects chunk 3: upload failed
+1708.229 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.234 (5) DreamObjects chunk 4: upload failed
+1708.343 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.347 (5) DreamObjects chunk 4: upload failed
+1708.493 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.496 (5) DreamObjects chunk 5: upload failed
+1708.542 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.545 (5) DreamObjects chunk 5: upload failed
+1708.678 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.681 (5) DreamObjects chunk 6: upload failed
+1708.724 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.729 (5) DreamObjects chunk 6: upload failed
+1708.898 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.903 (5) DreamObjects chunk 7: upload failed
+1708.952 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1708.956 (5) DreamObjects chunk 7: upload failed
+1709.132 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1709.136 (5) DreamObjects chunk 8: upload failed
+1709.160 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1709.165 (5) DreamObjects chunk 8: upload failed
+1709.522 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1709.527 (5) DreamObjects chunk 9: upload failed
+1709.532 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1709.537 (5) DreamObjects chunk 9: upload failed
+1709.819 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1709.823 (5) DreamObjects chunk 10: upload failed
+1709.886 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1709.889 (5) DreamObjects chunk 10: upload failed
+1710.010 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.014 (5) DreamObjects chunk 11: upload failed
+1710.047 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.051 (5) DreamObjects chunk 11: upload failed
+1710.170 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.174 (5) DreamObjects chunk 12: upload failed
+1710.279 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.283 (5) DreamObjects chunk 12: upload failed
+1710.315 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.319 (5) DreamObjects chunk 13: upload failed
+1710.495 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.500 (5) DreamObjects chunk 13: upload failed
+1710.567 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.571 (5) DreamObjects chunk 14: upload failed
+1710.653 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.657 (5) DreamObjects chunk 14: upload failed
+1710.790 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.794 (5) DreamObjects chunk 15: upload failed
+1710.796 (5) DreamObjects upload: upload was not completely successful on this run
+1710.799 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+1710.802 (5) Number of backup sets in history: 1; groups (db): 1
+1710.803 (5) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+1710.805 (5) This backup set is the backup set just made, so will not be deleted.
+1710.806 (5) Number of backup sets in history: 1; groups (files): 1
+1710.807 (5) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+1710.808 (5) This backup set is the backup set just made, so will not be deleted.
+1710.809 (5) This backup set is the backup set just made, so will not be deleted.
+1710.810 (5) This backup set is the backup set just made, so will not be deleted.
+1710.810 (5) This backup set is the backup set just made, so will not be deleted.
+1710.810 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1710.812 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1710.817 (5) Resume backup (aa4fad83df04, 5): finish run
+1710.822 (5) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+1710.819 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1710.827 (5) DreamObjects chunk 15: upload failed
+1710.828 (5) DreamObjects upload: upload was not completely successful on this run
+1710.829 (5) No email will/can be sent - the user has not configured an email address.
+1710.830 (5) The backup has not finished; a resumption is scheduled
+1710.832 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+1710.834 (5) Number of backup sets in history: 1; groups (db): 1
+1710.835 (5) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+1710.836 (5) This backup set is the backup set just made, so will not be deleted.
+1710.838 (5) Number of backup sets in history: 1; groups (files): 1
+1710.839 (5) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+1710.840 (5) This backup set is the backup set just made, so will not be deleted.
+1710.841 (5) This backup set is the backup set just made, so will not be deleted.
+1710.842 (5) This backup set is the backup set just made, so will not be deleted.
+1710.842 (5) This backup set is the backup set just made, so will not be deleted.
+1710.842 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1710.844 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1710.848 (5) Resume backup (aa4fad83df04, 5): finish run
+1710.850 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1710.852 (5) No email will/can be sent - the user has not configured an email address.
+1710.854 (5) The backup has not finished; a resumption is scheduled
+2206.432 (6) Opened log file at time: Tue, 29 Nov 2016 00:20:08 +0000 on http://gaveldenver.com
+2206.434 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2206.574 (6) Free space on disk containing Updraft's temporary directory: 583192.3 MB
+2206.583 (6) Backup run: resumption=6, nonce=aa4fad83df04, begun at=1480376602 (2207s ago), job type=backup
+2206.610 (6) Scheduling a resumption (7) after 300 seconds (1480379109) in case this run gets aborted
+2206.647 (6) Checking if we have a zip executable available
+2206.648 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2206.658 (6) Creation of backups of directories: already finished
+2206.659 (6) Saving backup status to database (elements: 8)
+2206.663 (6) Database dump (WordPress DB): Creation was completed already
+2206.669 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2206.671 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2206.673 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2206.674 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+2206.675 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+2206.676 (6) Saving backup history. Total backup size: Unknown
+2206.681 (6) Requesting upload of the files that have not yet been successfully uploaded (3)
+2206.684 (6) Cloud backup selection (1/1): dreamobjects (last)
+2206.691 (6) Beginning dispatch of backup to remote (dreamobjects)
+2206.700 (6) Set endpoint: objects-us-west-1.dream.io
+2206.913 (6) Set endpoint: objects-us-west-1.dream.io
+2206.914 (6) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+2206.916 (6) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+2207.128 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2207.133 (6) DreamObjects chunk 1: upload failed
+2207.134 (6) An error condition has occurred for the first time during this job
+2207.273 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2207.279 (6) DreamObjects chunk 2: upload failed
+2207.280 (6) DreamObjects upload: upload was not completely successful on this run
+2207.281 (6) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+2207.282 (6) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+2207.320 (6) Opened log file at time: Tue, 29 Nov 2016 00:20:09 +0000 on http://gaveldenver.com
+2207.321 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2207.420 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2207.424 (6) DreamObjects chunk 1: upload failed
+2207.437 (6) Free space on disk containing Updraft's temporary directory: 583192.2 MB
+2207.440 (6) Backup run: resumption=6, nonce=aa4fad83df04, begun at=1480376602 (2207s ago), job type=backup
+2207.441 (6) Scheduling a resumption (7) after 300 seconds (1480379109) in case this run gets aborted
+2207.451 (6) Checking if we have a zip executable available
+2207.453 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2207.453 (6) Creation of backups of directories: already finished
+2207.454 (6) Saving backup status to database (elements: 8)
+2207.458 (6) Database dump (WordPress DB): Creation was completed already
+2207.463 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2207.465 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2207.465 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2207.466 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+2207.467 (6) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+2207.468 (6) Saving backup history. Total backup size: Unknown
+2207.472 (6) Requesting upload of the files that have not yet been successfully uploaded (3)
+2207.473 (6) Cloud backup selection (1/1): dreamobjects (last)
+2207.478 (6) Beginning dispatch of backup to remote (dreamobjects)
+2207.486 (6) Set endpoint: objects-us-west-1.dream.io
+2207.610 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2207.611 (6) DreamObjects chunk 2: upload failed
+2207.612 (6) DreamObjects upload: upload was not completely successful on this run
+2207.613 (6) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+2207.614 (6) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+2207.662 (6) Set endpoint: objects-us-west-1.dream.io
+2207.663 (6) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+2207.668 (6) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+2207.840 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2207.844 (6) DreamObjects chunk 1: upload failed
+2207.867 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2207.870 (6) DreamObjects chunk 1: upload failed
+2207.871 (6) An error condition has occurred for the first time during this job
+2208.002 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.007 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.007 (6) DreamObjects chunk 2: upload failed
+2208.008 (6) DreamObjects chunk 2: upload failed
+2208.009 (6) DreamObjects upload: upload was not completely successful on this run
+2208.010 (6) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+2208.011 (6) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+2208.175 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.179 (6) DreamObjects chunk 3: upload failed
+2208.209 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.213 (6) DreamObjects chunk 1: upload failed
+2208.314 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.317 (6) DreamObjects chunk 4: upload failed
+2208.335 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.336 (6) DreamObjects chunk 2: upload failed
+2208.337 (6) DreamObjects upload: upload was not completely successful on this run
+2208.338 (6) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+2208.339 (6) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+2208.461 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.464 (6) DreamObjects chunk 5: upload failed
+2208.481 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.485 (6) DreamObjects chunk 1: upload failed
+2208.649 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.653 (6) DreamObjects chunk 2: upload failed
+2208.671 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.675 (6) DreamObjects chunk 6: upload failed
+2208.810 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.822 (6) DreamObjects chunk 3: upload failed
+2208.860 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.864 (6) DreamObjects chunk 7: upload failed
+2208.992 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2208.995 (6) DreamObjects chunk 4: upload failed
+2209.089 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.092 (6) DreamObjects chunk 8: upload failed
+2209.142 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.147 (6) DreamObjects chunk 5: upload failed
+2209.399 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.403 (6) DreamObjects chunk 6: upload failed
+2209.470 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.475 (6) DreamObjects chunk 9: upload failed
+2209.601 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.604 (6) DreamObjects chunk 7: upload failed
+2209.660 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.664 (6) DreamObjects chunk 10: upload failed
+2209.745 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.750 (6) DreamObjects chunk 8: upload failed
+2209.821 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.826 (6) DreamObjects chunk 11: upload failed
+2209.953 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.958 (6) DreamObjects chunk 9: upload failed
+2209.969 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2209.974 (6) DreamObjects chunk 12: upload failed
+2210.108 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.113 (6) DreamObjects chunk 10: upload failed
+2210.182 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.187 (6) DreamObjects chunk 13: upload failed
+2210.266 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.271 (6) DreamObjects chunk 11: upload failed
+2210.334 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.337 (6) DreamObjects chunk 14: upload failed
+2210.479 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.483 (6) DreamObjects chunk 12: upload failed
+2210.633 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.637 (6) DreamObjects chunk 13: upload failed
+2210.664 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.668 (6) DreamObjects chunk 15: upload failed
+2210.669 (6) DreamObjects upload: upload was not completely successful on this run
+2210.671 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+2210.672 (6) Number of backup sets in history: 1; groups (db): 1
+2210.675 (6) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2210.676 (6) This backup set is the backup set just made, so will not be deleted.
+2210.677 (6) Number of backup sets in history: 1; groups (files): 1
+2210.677 (6) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2210.678 (6) This backup set is the backup set just made, so will not be deleted.
+2210.679 (6) This backup set is the backup set just made, so will not be deleted.
+2210.679 (6) This backup set is the backup set just made, so will not be deleted.
+2210.680 (6) This backup set is the backup set just made, so will not be deleted.
+2210.680 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2210.681 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2210.685 (6) Resume backup (aa4fad83df04, 6): finish run
+2210.686 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2210.689 (6) No email will/can be sent - the user has not configured an email address.
+2210.690 (6) The backup has not finished; a resumption is scheduled
+2210.799 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.803 (6) DreamObjects chunk 14: upload failed
+2210.940 (6) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2210.945 (6) DreamObjects chunk 15: upload failed
+2210.947 (6) DreamObjects upload: upload was not completely successful on this run
+2210.949 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+2210.951 (6) Number of backup sets in history: 1; groups (db): 1
+2210.954 (6) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2210.955 (6) This backup set is the backup set just made, so will not be deleted.
+2210.956 (6) Number of backup sets in history: 1; groups (files): 1
+2210.957 (6) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2210.958 (6) This backup set is the backup set just made, so will not be deleted.
+2210.959 (6) This backup set is the backup set just made, so will not be deleted.
+2210.959 (6) This backup set is the backup set just made, so will not be deleted.
+2210.960 (6) This backup set is the backup set just made, so will not be deleted.
+2210.960 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2210.961 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2210.966 (6) Resume backup (aa4fad83df04, 6): finish run
+2210.967 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2210.970 (6) No email will/can be sent - the user has not configured an email address.
+2210.971 (6) The backup has not finished; a resumption is scheduled
+2512.130 (7) Opened log file at time: Tue, 29 Nov 2016 00:25:14 +0000 on http://gaveldenver.com
+2512.132 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2512.300 (7) Free space on disk containing Updraft's temporary directory: 583191.7 MB
+2512.304 (7) Backup run: resumption=7, nonce=aa4fad83df04, begun at=1480376602 (2512s ago), job type=backup
+2512.318 (7) Scheduling a resumption (8) after 300 seconds (1480379414) in case this run gets aborted
+2512.335 (7) Checking if we have a zip executable available
+2512.337 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2512.338 (7) Creation of backups of directories: already finished
+2512.339 (7) Saving backup status to database (elements: 8)
+2512.344 (7) Database dump (WordPress DB): Creation was completed already
+2512.350 (7) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2512.352 (7) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2512.353 (7) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2512.354 (7) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+2512.356 (7) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+2512.357 (7) Saving backup history. Total backup size: Unknown
+2512.362 (7) Requesting upload of the files that have not yet been successfully uploaded (3)
+2512.365 (7) Cloud backup selection (1/1): dreamobjects (last)
+2512.371 (7) Beginning dispatch of backup to remote (dreamobjects)
+2512.379 (7) Set endpoint: objects-us-west-1.dream.io
+2512.616 (7) Set endpoint: objects-us-west-1.dream.io
+2512.618 (7) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+2512.618 (7) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+2512.822 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2512.825 (7) DreamObjects chunk 1: upload failed
+2512.826 (7) An error condition has occurred for the first time during this job
+2512.967 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2512.969 (7) DreamObjects chunk 2: upload failed
+2512.970 (7) DreamObjects upload: upload was not completely successful on this run
+2512.971 (7) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+2512.973 (7) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+2513.108 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2513.111 (7) DreamObjects chunk 1: upload failed
+2513.284 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2513.285 (7) DreamObjects chunk 2: upload failed
+2513.286 (7) DreamObjects upload: upload was not completely successful on this run
+2513.287 (7) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+2513.288 (7) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+2513.479 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2513.483 (7) DreamObjects chunk 1: upload failed
+2513.865 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2513.881 (7) DreamObjects chunk 2: upload failed
+2514.090 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2514.094 (7) DreamObjects chunk 3: upload failed
+2514.252 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2514.258 (7) DreamObjects chunk 4: upload failed
+2514.414 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2514.419 (7) DreamObjects chunk 5: upload failed
+2514.570 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2514.573 (7) DreamObjects chunk 6: upload failed
+2514.709 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2514.712 (7) DreamObjects chunk 7: upload failed
+2514.851 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2514.856 (7) DreamObjects chunk 8: upload failed
+2515.224 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2515.228 (7) DreamObjects chunk 9: upload failed
+2515.398 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2515.402 (7) DreamObjects chunk 10: upload failed
+2515.619 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2515.628 (7) DreamObjects chunk 11: upload failed
+2515.786 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2515.790 (7) DreamObjects chunk 12: upload failed
+2516.007 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2516.009 (7) DreamObjects chunk 13: upload failed
+2516.144 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2516.148 (7) DreamObjects chunk 14: upload failed
+2516.345 (7) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2516.349 (7) DreamObjects chunk 15: upload failed
+2516.350 (7) DreamObjects upload: upload was not completely successful on this run
+2516.352 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+2516.353 (7) Number of backup sets in history: 1; groups (db): 1
+2516.356 (7) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2516.357 (7) This backup set is the backup set just made, so will not be deleted.
+2516.358 (7) Number of backup sets in history: 1; groups (files): 1
+2516.358 (7) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2516.359 (7) This backup set is the backup set just made, so will not be deleted.
+2516.360 (7) This backup set is the backup set just made, so will not be deleted.
+2516.361 (7) This backup set is the backup set just made, so will not be deleted.
+2516.361 (7) This backup set is the backup set just made, so will not be deleted.
+2516.361 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2516.362 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2516.366 (7) Resume backup (aa4fad83df04, 7): finish run
+2516.367 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2516.369 (7) No email will/can be sent - the user has not configured an email address.
+2516.370 (7) The backup has not finished; a resumption is scheduled
+2815.191 (8) Opened log file at time: Tue, 29 Nov 2016 00:30:17 +0000 on http://gaveldenver.com
+2815.194 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2815.402 (8) Free space on disk containing Updraft's temporary directory: 583192 MB
+2815.416 (8) Backup run: resumption=8, nonce=aa4fad83df04, begun at=1480376602 (2815s ago), job type=backup
+2815.424 (8) Scheduling a resumption (9) after 300 seconds (1480379717) in case this run gets aborted
+2815.494 (8) Checking if we have a zip executable available
+2815.499 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+2815.501 (8) Creation of backups of directories: already finished
+2815.505 (8) Saving backup status to database (elements: 8)
+2815.514 (8) Database dump (WordPress DB): Creation was completed already
+2815.526 (8) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2815.530 (8) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2815.531 (8) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2815.532 (8) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+2815.533 (8) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+2815.534 (8) Saving backup history. Total backup size: Unknown
+2815.539 (8) Requesting upload of the files that have not yet been successfully uploaded (3)
+2815.542 (8) Cloud backup selection (1/1): dreamobjects (last)
+2815.559 (8) Beginning dispatch of backup to remote (dreamobjects)
+2815.569 (8) Set endpoint: objects-us-west-1.dream.io
+2815.766 (8) Set endpoint: objects-us-west-1.dream.io
+2815.766 (8) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+2815.768 (8) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+2815.958 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2815.962 (8) DreamObjects chunk 1: upload failed
+2815.963 (8) An error condition has occurred for the first time during this job
+2816.158 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2816.159 (8) DreamObjects chunk 2: upload failed
+2816.160 (8) DreamObjects upload: upload was not completely successful on this run
+2816.160 (8) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+2816.161 (8) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+2816.322 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2816.326 (8) DreamObjects chunk 1: upload failed
+2816.471 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2816.473 (8) DreamObjects chunk 2: upload failed
+2816.474 (8) DreamObjects upload: upload was not completely successful on this run
+2816.474 (8) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+2816.475 (8) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+2816.685 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2816.688 (8) DreamObjects chunk 1: upload failed
+2816.922 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2816.926 (8) DreamObjects chunk 2: upload failed
+2817.148 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2817.152 (8) DreamObjects chunk 3: upload failed
+2817.388 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2817.393 (8) DreamObjects chunk 4: upload failed
+2817.677 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2817.682 (8) DreamObjects chunk 5: upload failed
+2817.929 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2817.932 (8) DreamObjects chunk 6: upload failed
+2818.162 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2818.167 (8) DreamObjects chunk 7: upload failed
+2818.731 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2818.735 (8) DreamObjects chunk 8: upload failed
+2818.941 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2818.946 (8) DreamObjects chunk 9: upload failed
+2819.184 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2819.189 (8) DreamObjects chunk 10: upload failed
+2819.455 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2819.460 (8) DreamObjects chunk 11: upload failed
+2819.735 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2819.739 (8) DreamObjects chunk 12: upload failed
+2819.948 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2819.952 (8) DreamObjects chunk 13: upload failed
+2820.141 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2820.146 (8) DreamObjects chunk 14: upload failed
+2820.325 (8) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+2820.331 (8) DreamObjects chunk 15: upload failed
+2820.332 (8) DreamObjects upload: upload was not completely successful on this run
+2820.335 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+2820.337 (8) Number of backup sets in history: 1; groups (db): 1
+2820.340 (8) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2820.341 (8) This backup set is the backup set just made, so will not be deleted.
+2820.343 (8) Number of backup sets in history: 1; groups (files): 1
+2820.344 (8) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+2820.345 (8) This backup set is the backup set just made, so will not be deleted.
+2820.346 (8) This backup set is the backup set just made, so will not be deleted.
+2820.346 (8) This backup set is the backup set just made, so will not be deleted.
+2820.347 (8) This backup set is the backup set just made, so will not be deleted.
+2820.347 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2820.348 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2820.369 (8) Resume backup (aa4fad83df04, 8): finish run
+2820.370 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2820.372 (8) No email will/can be sent - the user has not configured an email address.
+2820.373 (8) The backup has not finished; a resumption is scheduled
+3117.213 (9) Opened log file at time: Tue, 29 Nov 2016 00:35:19 +0000 on http://gaveldenver.com
+3117.214 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.9M | 41.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3117.360 (9) Free space on disk containing Updraft's temporary directory: 583191.5 MB
+3117.364 (9) Backup run: resumption=9, nonce=aa4fad83df04, begun at=1480376602 (3117s ago), job type=backup
+3117.366 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+3117.382 (9) Creation of backups of directories: already finished
+3117.383 (9) Saving backup status to database (elements: 8)
+3117.390 (9) Database dump (WordPress DB): Creation was completed already
+3117.394 (9) backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3117.395 (9) backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3117.396 (9) backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3117.396 (9) backup_2016-11-28-2343_Gavel_aa4fad83df04-others.zip: others: This file has already been successfully uploaded
+3117.397 (9) backup_2016-11-28-2343_Gavel_aa4fad83df04-db.gz: db: This file has already been successfully uploaded
+3117.398 (9) Saving backup history. Total backup size: Unknown
+3117.400 (9) Requesting upload of the files that have not yet been successfully uploaded (3)
+3117.402 (9) Cloud backup selection (1/1): dreamobjects (last)
+3117.405 (9) Beginning dispatch of backup to remote (dreamobjects)
+3117.411 (9) Set endpoint: objects-us-west-1.dream.io
+3117.646 (9) Set endpoint: objects-us-west-1.dream.io
+3117.647 (9) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-plugins.zip
+3117.648 (9) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~mGP-MtQWtojbqekOqfxu1PTuWIppOPW
+3117.798 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3117.800 (9) DreamObjects chunk 1: upload failed
+3117.802 (9) An error condition has occurred for the first time during this job
+3117.951 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3117.953 (9) DreamObjects chunk 2: upload failed
+3117.954 (9) DreamObjects upload: upload was not completely successful on this run
+3117.955 (9) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip (chunks: 2) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-themes.zip
+3117.956 (9) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~BRtNYGA6ZyecrH3xuKR4diYm84sXwvP
+3118.150 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3118.155 (9) DreamObjects chunk 1: upload failed
+3118.281 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3118.282 (9) DreamObjects chunk 2: upload failed
+3118.283 (9) DreamObjects upload: upload was not completely successful on this run
+3118.284 (9) DreamObjects upload (<): backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip (chunks: 15) -> dreamobjects://gaveldenver_com_updraft/backup_2016-11-28-2343_Gavel_aa4fad83df04-uploads.zip
+3118.285 (9) DreamObjects chunked upload: retrieved previously obtained multipart ID: 2~4N24kUF3CBj0fgrj0WkwSk-4LPj11jX
+3118.486 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3118.491 (9) DreamObjects chunk 1: upload failed
+3118.840 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3118.845 (9) DreamObjects chunk 2: upload failed
+3119.054 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3119.058 (9) DreamObjects chunk 3: upload failed
+3119.205 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3119.209 (9) DreamObjects chunk 4: upload failed
+3119.406 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3119.410 (9) DreamObjects chunk 5: upload failed
+3119.618 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3119.622 (9) DreamObjects chunk 6: upload failed
+3119.852 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3119.861 (9) DreamObjects chunk 7: upload failed
+3120.074 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3120.080 (9) DreamObjects chunk 8: upload failed
+3120.310 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3120.315 (9) DreamObjects chunk 9: upload failed
+3120.537 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3120.541 (9) DreamObjects chunk 10: upload failed
+3120.689 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3120.692 (9) DreamObjects chunk 11: upload failed
+3120.889 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3120.893 (9) DreamObjects chunk 12: upload failed
+3121.100 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3121.104 (9) DreamObjects chunk 13: upload failed
+3121.420 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3121.423 (9) DreamObjects chunk 14: upload failed
+3121.563 (9) PHP event: code E_USER_WARNING: UpdraftPlus_S3::uploadPart(): [403] Unexpected HTTP status (line 236, wp-content/plugins/updraftplus/includes/S3.php)
+3121.567 (9) DreamObjects chunk 15: upload failed
+3121.567 (9) DreamObjects upload: upload was not completely successful on this run
+3121.570 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+3121.571 (9) Number of backup sets in history: 1; groups (db): 1
+3121.574 (9) Examining (for databases) backup set with group_id=0, nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+3121.575 (9) This backup set is the backup set just made, so will not be deleted.
+3121.576 (9) Number of backup sets in history: 1; groups (files): 1
+3121.577 (9) Examining (for files) backup set with nonce=aa4fad83df04, datestamp=1480376602 (Nov 28 2016 23:43:22)
+3121.578 (9) This backup set is the backup set just made, so will not be deleted.
+3121.579 (9) This backup set is the backup set just made, so will not be deleted.
+3121.580 (9) This backup set is the backup set just made, so will not be deleted.
+3121.580 (9) This backup set is the backup set just made, so will not be deleted.
+3121.580 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3121.581 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+3121.586 (9) Resume backup (aa4fad83df04, 9): finish run
+3121.587 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3121.590 (9) No email will/can be sent - the user has not configured an email address.
+3121.591 (9) The backup attempt has finished, apparently unsuccessfully

@@ -1,0 +1,14 @@
+0000.011 () Opened log file at time: Fri, 16 Dec 2016 21:17:04 +0000 on http://gaveldenver.com
+0000.012 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.145 () Free space on disk containing Updraft's temporary directory: 578786.5 MB
+0000.149 () Requested to obtain file: timestamp=1481586897, type=db, index=0
+0000.151 () File does not yet exist locally - needs downloading
+0000.153 () Requested file from remote service: dreamobjects: backup_2016-12-12-2354_Gavel_3cdd22c4e790-db.gz
+0000.166 () Set endpoint: objects-us-west-1.dream.io
+0000.533 () Set endpoint: objects-us-west-1.dream.io
+0000.533 () Set endpoint: objects-us-west-1.dream.io
+0000.666 () Set endpoint: objects-us-west-1.dream.io
+0000.877 () DreamObjects Error: Failed to download backup_2016-12-12-2354_Gavel_3cdd22c4e790-db.gz. Check your permissions and credentials. Retrieved data: a:0:{}
+0000.879 () An error condition has occurred for the first time during this job
+0000.881 () Remote fetch failed
+0000.885 () Remote fetch failed. File /home7/gavelden/public_html/wp-content/updraft/backup_2016-12-12-2354_Gavel_3cdd22c4e790-db.gz did not exist or was unreadable. If you delete local backups then remote retrieval may have failed.

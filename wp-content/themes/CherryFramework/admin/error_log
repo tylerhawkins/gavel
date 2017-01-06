@@ -1,0 +1,9 @@
+[03-Oct-2016 14:30:56] PHP Fatal error:  Call to undefined function  add_filter() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-sanitize.php on line 7
+[03-Oct-2016 14:32:31] PHP Fatal error:  Call to undefined function  add_action() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-framework.php on line 28
+[03-Oct-2016 16:13:20] PHP Fatal error:  Call to undefined function  add_filter() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-sanitize.php on line 7
+[04-Oct-2016 07:45:55] PHP Fatal error:  Call to undefined function  add_filter() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-sanitize.php on line 7
+[04-Oct-2016 07:49:13] PHP Fatal error:  Call to undefined function  add_action() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-framework.php on line 28
+[04-Oct-2016 07:54:43] PHP Fatal error:  Call to undefined function  is_admin() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-medialibrary-uploader.php on line 9
+[07-Oct-2016 13:17:50] PHP Fatal error:  Call to undefined function  add_filter() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-sanitize.php on line 7
+[07-Oct-2016 13:39:30] PHP Fatal error:  Call to undefined function  add_action() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-framework.php on line 28
+[09-Oct-2016 01:40:30] PHP Fatal error:  Call to undefined function  add_filter() in /home7/gavelden/public_html/wp-content/themes/CherryFramework/admin/options-sanitize.php on line 7

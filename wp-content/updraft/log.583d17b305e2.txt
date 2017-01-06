@@ -1,0 +1,12 @@
+0000.005 () Opened log file at time: Tue, 29 Nov 2016 05:58:40 +0000 on http://gaveldenver.com
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.143 () Free space on disk containing Updraft's temporary directory: 583497.5 MB
+0000.144 () Requested to obtain file: timestamp=1480398771, type=others, index=0
+0000.146 () File does not yet exist locally - needs downloading
+0000.148 () Requested file from remote service: dreamobjects: backup_2016-11-29-0552_Gavel_66919bd6e4fd-others.zip
+0000.161 () Set endpoint: objects-us-west-1.dream.io
+0000.283 () Set endpoint: objects-us-west-1.dream.io
+0000.284 () Set endpoint: objects-us-west-1.dream.io
+0000.401 () Set endpoint: objects-us-west-1.dream.io
+0000.596 () backup_2016-11-29-0552_Gavel_66919bd6e4fd-others.zip: local file is status: 0/145275 bytes; requesting next 145275 bytes
+0000.876 () Remote fetch was successful (file size: 141.9 KB)

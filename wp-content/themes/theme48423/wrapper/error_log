@@ -1,0 +1,2 @@
+[03-Oct-2016 11:59:34] PHP Fatal error:  Call to undefined function  get_template_part() in /home7/gavelden/public_html/wp-content/themes/theme48423/wrapper/wrapper-header.php on line 4
+[03-Oct-2016 12:00:18] PHP Fatal error:  Call to undefined function  apply_filters() in /home7/gavelden/public_html/wp-content/themes/theme48423/wrapper/wrapper-footer.php on line 6

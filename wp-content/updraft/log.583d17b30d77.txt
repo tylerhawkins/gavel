@@ -1,0 +1,17 @@
+0000.008 () Opened log file at time: Tue, 29 Nov 2016 05:57:11 +0000 on http://gaveldenver.com
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.154 () Free space on disk containing Updraft's temporary directory: 583497.7 MB
+0000.156 () Requested to obtain file: timestamp=1480398771, type=db, index=0
+0000.158 () File does not yet exist locally - needs downloading
+0000.160 () Requested file from remote service: dreamobjects: backup_2016-11-29-0552_Gavel_66919bd6e4fd-db.gz
+0000.173 () Set endpoint: objects-us-west-1.dream.io
+0000.635 () Set endpoint: objects-us-west-1.dream.io
+0000.635 () Set endpoint: objects-us-west-1.dream.io
+0000.805 () Set endpoint: objects-us-west-1.dream.io
+0001.001 () backup_2016-11-29-0552_Gavel_66919bd6e4fd-db.gz: local file is status: 0/187376 bytes; requesting next 187376 bytes
+0001.218 () Remote fetch was successful (file size: 183 KB)
+0000.004 () Opened log file at time: Tue, 29 Nov 2016 05:57:43 +0000 on http://gaveldenver.com
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.5.3 PHP: 5.2.17 (cgi-fcgi, Linux box500.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.7M | 50.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.117 () Free space on disk containing Updraft's temporary directory: 583497.5 MB
+0000.118 () Requested to obtain file: timestamp=1480398771, type=db, index=0
+0000.119 () No file size was found recorded in the backup history. We will assume the local one is complete.
