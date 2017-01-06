@@ -46,6 +46,7 @@
 		 */
 		wp_head();
 	?>
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo PARENT_URL; ?>/css/styles-custom.css" />
 	<?php /* The HTML5 Shim is required for older browsers, mainly older versions IE */ ?>
 	<!--[if lt IE 9]>
 		<div id="ie7-alert" style="width: 100%; text-align:center;">
